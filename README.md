@@ -1,5 +1,5 @@
 # QSD-shop
-During my QSD internship, I had the privilege of working on the development of a web application called QSD Shop. This project provided me with valuable hands-on experience in utilizing React with TypeScript for the frontend development, along with Laravel PHP for backend. We gained valuable experience in team work communication GitHub and Trello. 
+During my QSD internship, I had the privilege of working on the development of a web application called QSD Shop. This project provided me with valuable hands-on experience in utilizing React with TypeScript for the frontend development, along with Laravel PHP for backend. We gained valuable experience in team work, communication GitHub and Trello. 
 
 Description: A webshop application intended for selling a variety of men's, women's, and children's clothing.
 
