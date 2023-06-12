@@ -1,0 +1,219 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapperHome {
+  overflow-x: hidden;
+}
+.ImageDiv1 {
+  height: 500px;
+  width: 100%;
+  background-image: url("../../images/web_shop1.webp");
+  background-size: cover;
+  background-position: center top 35%;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(40, 40, 40, 0.2) 0 10px 10px -10px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -10;
+  overflow: hidden;
+}
+.shadowDiv1 {
+  background-color: var(--shadow-div);
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+}
+.shadowDiv1:hover {
+  background-color: black;
+}
+.tekstDiv {
+  margin-left: 100px;
+}
+.tekst1 {
+  color: var(--white);
+  letter-spacing: 3px;
+  font-family: "TrainOne", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+
+.tekst2 {
+  color: var(--white);
+  letter-spacing: 3px;
+  font-family: "TrainOne", sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.shopButton {
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 25px;
+  background-color: var(--white);
+  color: var(--black-text);
+  font-family: "Glory";
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.noviDiv {
+  background-color: red;
+  height: 700px;
+  width: 100%;
+  background-image: url("../../images/parallexBg.webp");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  box-shadow: rgba(40, 40, 40, 0.2) 0 10px 10px -10px;
+  color: var(--black-text-opacity);
+}
+
+.AboutUs {
+  height: 700px;
+  width: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow-x: hidden;
+}
+.shadowDiv2 {
+  background-color: var(--shadow-div);
+  width: 100vw;
+  height: 500px;
+  position: absolute;
+  height: 700px;
+}
+.LargeWhite {
+  background-color: var(--white-opacity);
+  height: 500px;
+  width: 500px;
+  border-radius: 20px 0 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SmallWhite {
+  height: 475px;
+  width: 475px;
+  border-radius: 18px 0 18px 0;
+  background-color: var(--white-opacity);
+  border: 5px solid var(--purple-opacity);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Hedding {
+  font-family: "TrainOne", sans-serif;
+  margin-bottom: 20px;
+  font-size: larger;
+  color: var(--purple);
+}
+.FirstPart {
+  width: 90%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Glory";
+  font-size: 18px;
+}
+.SecondPart {
+  width: 90%;
+  text-align: center;
+  font-family: "Glory";
+  font-size: 18px;
+}
+
+.Izbornik {
+  width: 100%;
+  height: 250px;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.IzbornikSlike {
+  height: 150px;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slike {
+  width: 33%;
+  height: 150px;
+  background-image: url("../../images/women.webp");
+  background-size: cover;
+  background-position: center top 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slike1 {
+  width: 34%;
+  height: 150px;
+  background-image: url("../../images/men.webp");
+  background-size: cover;
+  background-position: center top 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slike2 {
+  width: 33%;
+  height: 150px;
+  background-image: url("../../images/children.webp");
+  background-size: cover;
+  background-position: center top 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sjena {
+  width: 100%;
+  height: 150px;
+  background-color: var(--white-hover);
+  color: rgba(0, 0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Glory";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sjena:hover {
+  background-color: #ffffff00;
+  color: #fff;
+}
+
+.NewItems {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background-color: var(--white);
+}
+.NewItemsText {
+  font-family: "TrainOne", sans-serif;
+  font-weight: 600;
+  color: var(--black-text);
+}

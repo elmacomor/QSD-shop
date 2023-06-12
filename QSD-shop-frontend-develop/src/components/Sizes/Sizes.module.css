@@ -1,0 +1,297 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(246, 246, 246);
+    box-sizing: border-box;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .menu {
+    
+    height: 100vh;
+    width: 5%;
+    background-color: #1d1e42;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: width 300ms ease-out;
+  }
+  .descrClosed {
+    display: none;
+  }
+  .menu.open {
+    width: 250px;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  .descr {
+    display: inline;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    font-weight: normal;
+  }
+  
+  .adminText {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    padding-bottom: 10px;
+  }
+  .adminTextClosed {
+    display: none;
+  }
+  .adminDot {
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    padding-bottom: 10px;
+  }
+  .adminDotClosed {
+    display: none;
+  }
+  .AdminIcon {
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+  .AdminIconClosed {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+  }
+  .Header {
+    width: 95%;
+    height: 100px;
+    border-bottom: 2px solid #cdcdcd;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .Header p {
+    padding-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  .AvatarSlika {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .AvatarDiv {
+    margin-left: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .TableDiv {
+    background-color: #fff;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+  table {
+    width: 95%;
+  }
+  td,
+  th {
+    text-align: center;
+  }
+  
+  .NavIconsContainer {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .NavIconsContainerClosed {
+    margin-top: 50px;
+  }
+  .NavIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .NavIconsDiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .NavIconsDiv p {
+    padding-left: 5px;
+  }
+  .NavIconHead {
+    height: 35px;
+    width: 30px;
+    font-weight: bolder;
+  }
+  
+  .NavAdminDiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .AdminDiv {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .AddProductDiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 6%;
+    color: gray;
+  }
+  .AddProductDiv p {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+  .AddCircle {
+    width: 25px;
+    height: 25px;
+  }
+  .AddProductDiv {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .PageDisplayDiv {
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+  }
+  .addProductText {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      padding-top: 3px;
+  }
+  .PageDisplayButton {
+    margin-left: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+  }
+  .PageDisplaySelect {
+    margin-left: 5px;
+    padding: 4px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  .buttonDiv {
+    height: 100%;
+    background-color: #1d1e42;
+    width: 35px;
+    border-radius: 3px 0px 3px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .ButtonEdit {
+    background-color:#2e7d2e;
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .addButton{
+    width:250px;
+    display: flex;
+    background-color: white;
+    border: none;
+    color: gray;
+     
+    }
+  .ButtonDelete {
+    background-color: #d10f0f;
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ButtonDelete .buttonDiv {
+    color: red;
+    
+    right: 20px;
+  }
+  .ButtonEdit .buttonDiv {
+    color: green;
+    
+    right: 25px;
+  }
+  .ButtonIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .ButtonsDiv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tableRow {
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+  }
+  .table1 {
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .table2 {
+    border-bottom: 1px solid #a6a6a7;
+    height: 50px;
+  }
+  button{
+    cursor: pointer;
+  }
+  .textInButton{
+    margin-right: 30px;
+  }
+  .textInButton1{
+    margin-right: 18px;
+  }

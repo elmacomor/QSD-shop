@@ -1,0 +1,11 @@
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(108, 99, 255);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Glory", sans-serif;
+  font-weight: bold;
+}

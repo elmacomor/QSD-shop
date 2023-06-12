@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: var(--nav-white);
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(40, 40, 40, 0.2) 0 10px 10px -10px;
+}
+.navbar-search-open {
+  width: 100vw;
+  height: 200px;
+  background-color: var(--nav-white);
+  box-shadow: rgba(40, 40, 40, 0.2) 0 10px 10px -10px;
+}
+.NavbarContent {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AdminIconClosed {
+  margin-right: 20px;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.listItem {
+  padding: 0;
+  margin: 0;
+  color: var(--black-text);
+  font-size: medium;
+  font-weight: 500;
+  padding-right: 30px;
+  display: inline;
+  cursor: pointer;
+}
+.searchIcon {
+  width: 15px;
+  height: 15px;
+  color: var(--purple);
+  margin-right: 20px;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: var(--black-text);
+  font-family: "Glory", sans-serif;
+}
+.LogoImage {
+  width: 250px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.Avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.AvatarButton {
+  padding-left: 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.AvatarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+}
+.shoppingBag {
+  width: 20px;
+  height: 20px;
+  color: var(--purple);
+  cursor: pointer;
+}
+.SearchDiv {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SearchInput12 {
+  width: 700px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0px;
+  background-color: var(--nav-white);
+}
+.SearchIcon1 {
+  margin-right: 20px;
+  color: var(--black-text);
+}
+.UnderlineSearchDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--black-text);
+  padding: 5px;
+  margin-right: 50px;
+}
